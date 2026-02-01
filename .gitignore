@@ -1,0 +1,14 @@
+# Python 虛擬環境
+.venv/
+__pycache__/
+*.pyc
+
+# Whisper 專案輸出
+transcripts/
+videos/
+models/medium/
+
+# 臨時檔案
+*.log
+*.tmp
+.DS_Store
