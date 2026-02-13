@@ -3,10 +3,19 @@
 __pycache__/
 *.pyc
 
+
+# 忽略資料夾裡的所有檔案
 # Whisper 專案輸出
-transcripts/
-videos/
-models/medium/
+transcripts/*
+
+videos/*
+models/medium/*
+transcripts/*
+
+# 但是不要忽略資料夾本身
+!videos/.gitkeep
+!models/medium/.gitkeep
+!transcripts/.gitkeep
 
 # 臨時檔案
 *.log
